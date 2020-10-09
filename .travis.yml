@@ -1,4 +1,8 @@
 language: emacs-lisp
+arch:
+    - amd64
+    - ppc64le
+    
 env:
   - EVM_EMACS=emacs-24.5-travis
   - EVM_EMACS=emacs-25.3-travis
